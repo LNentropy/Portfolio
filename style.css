@@ -1,0 +1,41 @@
+*{
+    background: rgba(145, 215, 255, 0.2);;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainCanvas {
+    background: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+#fullScreen {
+    position: absolute;
+    font-size: 150%;
+    background: rgb(25, 132, 209);
+    font-family: Impact;
+    padding: 0.2%;
+    top: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#playAgain {
+    position: absolute;
+    font-size: 200%;
+    background: rgb(25, 132, 209);
+    font-family: Impact;
+    padding: 0.4%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+#background01, #background02, #background03, #background04, #background05,
+#flyEnemy, #boom, #bombEnemy, #kaboom, #slap, #explosion, #music {
+    display: none;
+}
